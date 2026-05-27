@@ -120,9 +120,9 @@ fun ExploreScreen(properties: List<Accommodation>, onBookingConfirmed: () -> Uni
                 HorizontalDivider()
                 Spacer(modifier = Modifier.height(12.dp))
 
-                Text("📍 Location: ${selectedHouse!!.location}", style = MaterialTheme.typography.bodyLarge)
-                Text("💰 Price: P${selectedHouse!!.price} / month", style = MaterialTheme.typography.bodyLarge)
-                Text("✨ Amenities: ${selectedHouse!!.amenities}", style = MaterialTheme.typography.bodyLarge)
+                Text("Location: ${selectedHouse!!.location}", style = MaterialTheme.typography.bodyLarge)
+                Text("Price: P${selectedHouse!!.price} / month", style = MaterialTheme.typography.bodyLarge)
+                Text("Amenities: ${selectedHouse!!.amenities}", style = MaterialTheme.typography.bodyLarge)
 
                 Spacer(modifier = Modifier.height(24.dp))
 
